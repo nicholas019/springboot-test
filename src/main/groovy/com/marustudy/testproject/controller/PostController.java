@@ -1,6 +1,7 @@
 package com.marustudy.testproject.controller;
 
 import com.marustudy.testproject.dto.MemberDTO;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
+@Tag(name = "POST 메소드 TEST")
 @RestController
 @RequestMapping("/api/v1/post-api")
 
